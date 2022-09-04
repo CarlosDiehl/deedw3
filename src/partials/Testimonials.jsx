@@ -59,7 +59,7 @@ function Testimonials() {
 
             {/* Item */}
             <div className="flex items-center justify-center py-2 col-span-2 md:col-auto">
-              <a href="https://gaia-impactfund.com/en/" target="_blank"><img src={gaiaLogo} alt="paydece-logo" /></a>
+              <a href="https://gaiaimpact.org" target="_blank"><img src={gaiaLogo} alt="paydece-logo" /></a>
             </div>
 
             {/* Item */}
