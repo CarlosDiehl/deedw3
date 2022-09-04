@@ -6,6 +6,8 @@ import qroomLogo from "../images/qroom-logo.jpeg"
 import qroom360Logo from "../images/qroom360-logo.jpeg"
 import gaiaLogo from "../images/gaiaimpact-logo.png"
 import fri3ndsLogo from "../images/fri3nds-logo.jpeg"
+import cbrLogo from "../images/cbr-logo.png"
+
 
 function Testimonials() {
   return (
@@ -38,14 +40,14 @@ function Testimonials() {
           </div>
 
           {/* Items */}
-          <div className="max-w-sm md:max-w-4xl mx-auto grid gap-2 grid-cols-4 md:grid-cols-5">
+          <div className="max-w-sm md:max-w-4xl mx-auto grid gap-2 grid-cols-4 md:grid-cols-6">
 
             {/* Item */}
-            <a href="https://www.paydece.io" target="_blank">
+            
               <div className="flex items-center justify-center py-2 col-span-2 md:col-auto">
-                <img src={paydeceLogo} alt="paydece-logo" />
+                <a href="https://www.paydece.io" target="_blank"><img src={paydeceLogo} alt="paydece-logo" /></a>
               </div>
-            </a>
+            
 
             {/* Item */}
             <div className="flex items-center justify-center py-2 col-span-2 md:col-auto">
@@ -65,6 +67,11 @@ function Testimonials() {
             {/* Item */}
             <div className="flex items-center justify-center py-2 col-span-2 md:col-auto">
               <a href="https://www.fri3nds.com/" target="_blank"><img src={fri3ndsLogo} alt="paydece-logo" /></a>
+            </div>
+
+             {/* Item */}
+             <div className="flex items-center justify-center py-2 col-span-2 md:col-auto">
+              <a href="https://www.camara.cr/" target="_blank"><img src={cbrLogo} alt="paydece-logo" /></a>
             </div>
 
           </div>
