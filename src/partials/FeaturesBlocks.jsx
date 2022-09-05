@@ -31,7 +31,7 @@ function FeaturesBlocks() {
                   </g>
                 </g>
               </svg>
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Las partes acurdan</h4>
+              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Las partes acuerdan</h4>
               <p className="text-gray-600 text-center">Las partes se ponen de acuerdo de como va a ser el intercambio.</p>
             </div>
 
